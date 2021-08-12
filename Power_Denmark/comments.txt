@@ -1,0 +1,9 @@
+3.1
+a) We did a line plot for the Onshore wind power generated, for both price areas for the whole time series.
+without processing the data.
+We thought the result was very interesting because even though we wanted to do a line plot, due to the fact 
+that the variations on the power generated and the huge amount of data we have it makes the line plot 
+look like a lot more an area chart. It might be hard to interpete this line plot at the beginning but with some careful
+observation it makes us understand the vast variations between the power generated.
+
+b) averaged the the onshore wind power produced and created a much prettier histogram.
