@@ -1,0 +1,2 @@
+From the book, I removed the header, the contents and all the information and disclaimers from the 
+gutenberg project at the beggining and the end.
