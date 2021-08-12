@@ -1,0 +1,6 @@
+""" for globemoji
+notes:
+    data really hard,
+    had to find centroids, not all were present, not all were correct, had to rename from 1 df to another df for compatibility,
+    map can't have legend so I put the emoji scale on the title, used html on the title
+"""
