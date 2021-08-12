@@ -1,0 +1,76 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 10-12-2020
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 12 SOUID  : Source identifier
+ 14- 53 SOUNAME: Source name
+ 55- 56 CN     : Country code (ISO3116 country codes)
+ 58- 66 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 68- 77 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 79- 82 HGTH   : Station elevation in meters
+ 84- 87 ELEI   : Element identifier (see website at Daily Data > Data dictionary > Elements)
+ 89- 96 BEGIN  : Begin date YYYYMMDD
+ 98-105 END    : End date YYYYMMDD
+107-111 PARID  : Participant identifier
+113-163 PARNAME: Participant name
+
+STAID, SOUID,SOUNAME                                 ,CN,      LAT,       LON,HGHT,ELEI,   BEGIN,     END,PARID,PARNAME
+
+  107,100434,VESTERVIG                               ,DK,+56:46:00,+008:19:00,  18, TX5,18740801,20111231,   45,John Cappelen                                     
+  107,100435,VESTERVIG                               ,DK,+56:46:00,+008:19:00,  18, TX6,19130101,19710101,   45,John Cappelen                                     
+  107,117944,VESTERVIG                               ,DK,+56:46:00,+008:19:00,  18, TX1,18740802,20001231,   50,GHCND                                             
+  107,171532,VESTERVIG                               ,DK,+56:46:00,+008:19:00,  18,TX16,20031001,20191231,   45,John Cappelen                                     
+  107,906052,THYBOROEN                               ,DK,+56:42:00,+008:13:00,   4, TX7,19820113,20200229,     ,                    
+  109,100436,NORDBY (FANO)                           ,DK,+55:27:00,+008:24:00,   4, TX5,18740501,20110430,   45,John Cappelen                                     
+  109,100437,NORDBY (FANO)                           ,DK,+55:27:00,+008:24:00,   4, TX6,19130101,19710101,   45,John Cappelen                                     
+  109,117948,NORDBY (FANO)                           ,DK,+55:27:00,+008:24:00,   4, TX1,18740502,20001231,   50,GHCND                                             
+  109,171535,NORDBY (FANO)                           ,DK,+55:27:00,+008:24:00,   4,TX16,20030724,20191231,   45,John Cappelen                                     
+  113,100438,TRANEBJERG                              ,DK,+55:51:00,+010:36:00,  11, TX5,18740101,20030809,   45,John Cappelen                                     
+  113,100439,TRANEBJERG                              ,DK,+55:51:00,+010:36:00,  11, TX6,19130101,19710101,   45,John Cappelen                                     
+  113,100976,TRANEBJERG OST-1                        ,DK,+55:50:00,+010:37:00,  18, TX5,20030821,20111231,   45,John Cappelen                                     
+  113,117951,TRANEBJERG OST-1                        ,DK,+55:50:00,+010:37:00,  18, TX1,18730101,20001231,   50,GHCND                                             
+  113,171542,TRANEBJERG OST-1                        ,DK,+55:50:00,+010:37:00,  18,TX16,20030820,20191231,   45,John Cappelen                                     
+  116,100440,KOEBENHAVN: LANDBOHOJSKOLEN-1           ,DK,+55:41:00,+012:32:00,   9, TX5,18740101,19970629,   45,John Cappelen                                     
+  116,100441,KOEBENHAVN: LANDBOHOJSKOLEN-1           ,DK,+55:41:00,+012:32:00,   9, TX6,19130101,19710101,   45,John Cappelen                                     
+  116,100442,KOEBENHAVN: LANDBOHOJSKOLEN             ,DK,+55:41:00,+012:32:00,   9, TX5,19951201,20111231,   45,John Cappelen                                     
+  116,171539,KOEBENHAVN: LANDBOHOJSKOLEN             ,DK,+55:41:00,+012:32:00,   9,TX16,19951130,20191231,   45,John Cappelen                                     
+  116,906180,KOEBENHAVNS LUFTHAVN                    ,DK,+55:37:00,+012:39:00,   5, TX7,19820112,20200229,     ,                    
+  119,100440,KOEBENHAVN: LANDBOHOJSKOLEN-1           ,DK,+55:41:00,+012:32:00,   9, TX5,18740101,19970629,   45,John Cappelen                                     
+  119,100441,KOEBENHAVN: LANDBOHOJSKOLEN-1           ,DK,+55:41:00,+012:32:00,   9, TX6,19130101,19710101,   45,John Cappelen                                     
+  119,100442,KOEBENHAVN: LANDBOHOJSKOLEN             ,DK,+55:41:00,+012:32:00,   9, TX5,19951201,20111231,   45,John Cappelen                                     
+  119,117956,KOEBENHAVN: LANDBOHOJSKOLEN             ,DK,+55:41:00,+012:32:00,   9, TX1,18740101,20001231,   50,GHCND                                             
+  119,171539,KOEBENHAVN: LANDBOHOJSKOLEN             ,DK,+55:41:00,+012:32:00,   9,TX16,19951130,20191231,   45,John Cappelen                                     
+  119,906180,KOEBENHAVNS LUFTHAVN                    ,DK,+55:37:00,+012:39:00,   5, TX7,19820112,20200229,     ,                    
+  118,100443,SANDVIG                                 ,DK,+55:17:00,+014:47:00,  13, TX5,18740401,19121230,   45,John Cappelen                                     
+  118,100444,SANDVIG                                 ,DK,+55:17:00,+014:47:00,  13, TX6,19130101,19701231,   45,John Cappelen                                     
+  118,100446,HAMMER ODDE FYR                         ,DK,+55:18:00,+014:47:00,  11, TX5,19840101,20111231,   45,John Cappelen                                     
+  118,117959,HAMMER ODDE FYR                         ,DK,+55:18:00,+014:47:00,  11, TX1,19710101,20110123,   50,GHCND                                             
+  118,117962,SANDVIG                                 ,DK,+55:17:00,+014:47:00,  13, TX1,18740402,19701230,   50,GHCND                                             
+  118,171528,HAMMER ODDE FYR                         ,DK,+55:18:00,+014:47:00,  11,TX16,19831231,20191231,   45,John Cappelen                                     
+  118,906193,HAMMER ODDE FYR                         ,DK,+55:18:00,+014:46:00,   9, TX7,19820112,20200229,     ,                    
+  117,100443,SANDVIG                                 ,DK,+55:17:00,+014:47:00,  13, TX5,18740401,19121230,   45,John Cappelen                                     
+  117,100444,SANDVIG                                 ,DK,+55:17:00,+014:47:00,  13, TX6,19130101,19701231,   45,John Cappelen                                     
+  117,100445,HAMMER ODDE FYR-1                       ,DK,+55:18:00,+014:47:00,  11, TX5,19710101,19870623,   45,John Cappelen                                     
+  117,100446,HAMMER ODDE FYR                         ,DK,+55:18:00,+014:47:00,  11, TX5,19840101,20111231,   45,John Cappelen                                     
+  117,117962,SANDVIG                                 ,DK,+55:17:00,+014:47:00,  13, TX1,18740402,19701230,   50,GHCND                                             
+  117,171528,HAMMER ODDE FYR                         ,DK,+55:18:00,+014:47:00,  11,TX16,19831231,20191231,   45,John Cappelen                                     
+  117,906193,HAMMER ODDE FYR                         ,DK,+55:18:00,+014:46:00,   9, TX7,19820112,20200229,     ,                    
+  106,100443,SANDVIG                                 ,DK,+55:17:00,+014:47:00,  13, TX5,18740401,19121230,   45,John Cappelen                                     
+  106,100444,SANDVIG                                 ,DK,+55:17:00,+014:47:00,  13, TX6,19130101,19701231,   45,John Cappelen                                     
+  106,100446,HAMMER ODDE FYR                         ,DK,+55:18:00,+014:47:00,  11, TX5,19840101,20111231,   45,John Cappelen                                     
+  106,117959,HAMMER ODDE FYR                         ,DK,+55:18:00,+014:47:00,  11, TX1,19710101,20110123,   50,GHCND                                             
+  106,117962,SANDVIG                                 ,DK,+55:17:00,+014:47:00,  13, TX1,18740402,19701230,   50,GHCND                                             
+  106,171528,HAMMER ODDE FYR                         ,DK,+55:18:00,+014:47:00,  11,TX16,19831231,20191231,   45,John Cappelen                                     
+  106,906193,HAMMER ODDE FYR                         ,DK,+55:18:00,+014:46:00,   9, TX7,19820112,20200229,     ,                    
+  305,100438,TRANEBJERG                              ,DK,+55:51:00,+010:36:00,  11, TX5,18740101,20030809,   45,John Cappelen                                     
+  305,100439,TRANEBJERG                              ,DK,+55:51:00,+010:36:00,  11, TX6,19130101,19710101,   45,John Cappelen                                     
+  305,100976,TRANEBJERG OST-1                        ,DK,+55:50:00,+010:37:00,  18, TX5,20030821,20111231,   45,John Cappelen                                     
+  305,117951,TRANEBJERG OST-1                        ,DK,+55:50:00,+010:37:00,  18, TX1,18730101,20001231,   50,GHCND                                             
+  305,171542,TRANEBJERG OST-1                        ,DK,+55:50:00,+010:37:00,  18,TX16,20030820,20191231,   45,John Cappelen                                     
