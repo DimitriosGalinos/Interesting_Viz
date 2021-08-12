@@ -1,0 +1,11 @@
+-Graphical environment is a big plus
+-some simple calculations can be really time consuming, repettive and annoying
+ in GSheets
+- would personally not prefer this tool, it feels kinda incompelte to be honest.
+
+needed to add new data columns for finland, was not a big deal, just added them 
+and zeroed them
+
+- no boxplot avail.
+- onlye candlestick charts are available, which look similar, but don't contain exactly
+the same information, talk about high, low, open, close etc.
